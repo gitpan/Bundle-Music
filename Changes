@@ -1,5 +1,8 @@
 Revision history for Bundle::Music:
 
+0.0101 2013.01.04
+    - Remove the Tk dependent XML module. (Wtf?)
+
 0.01 2013.01.03
     - Minted by Dist:Zilla
     - Filled CONTENTS with MIDI* and Music::* modules.

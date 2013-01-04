@@ -2,7 +2,7 @@ package Bundle::Music;
 # ABSTRACT: A bundle of various MIDI and music modules
 use strict;
 use warnings;
-our $VERSION = 0.01;
+our $VERSION = 0.0101;
 1;
 
 __END__
@@ -15,7 +15,7 @@ Bundle::Music - A bundle of various MIDI and music modules
 
 =head1 VERSION
 
-version 0.01
+version 0.0101
 
 =head1 SYNOPSIS
 
@@ -67,8 +67,6 @@ MIDI::Trans - May 24, 2002
 
 MIDI::Tweaks
 
-MIDI::XML - Jan 24, 2003
-
 Music::AtonalUtil
 
 Music::Chord::Namer - Mar 14, 2006
@@ -101,6 +99,7 @@ Text::Chord::Piano
 BokkaKumiai,
 GD::Chord::Piano,
 GD::Tab::Guitar,
+MIDI::XML - Jan 24, 2003 - This has Tk as a dependency - for an XML module. Sorry not including.
 Music::Image::Chord - Oct 03, 2003,
 PDL::Audio,
 POE::Framework::MIDI - Mar 19, 2006,
