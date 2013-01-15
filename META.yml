@@ -15,4 +15,4 @@ name: Bundle-Music
 resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Bundle-Music
   repository: https://github.com/ology/Music/tree/master/Bundle-Music
-version: 0.0101
+version: 0.0102

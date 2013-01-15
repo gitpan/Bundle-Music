@@ -2,7 +2,7 @@ package Bundle::Music;
 # ABSTRACT: A bundle of various MIDI and music modules
 use strict;
 use warnings;
-our $VERSION = 0.0101;
+our $VERSION = 0.0102;
 1;
 
 __END__
@@ -15,7 +15,7 @@ Bundle::Music - A bundle of various MIDI and music modules
 
 =head1 VERSION
 
-version 0.0101
+version 0.0102
 
 =head1 SYNOPSIS
 
@@ -68,6 +68,8 @@ MIDI::Trans - May 24, 2002
 MIDI::Tweaks
 
 Music::AtonalUtil
+
+Music::Canon
 
 Music::Chord::Namer - Mar 14, 2006
 
