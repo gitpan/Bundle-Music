@@ -19,8 +19,11 @@ my %WriteMakefileArgs = (
   "EXE_FILES" => [],
   "LICENSE" => "perl",
   "NAME" => "Bundle::Music",
-  "PREREQ_PM" => {},
-  "VERSION" => "0.0102",
+  "PREREQ_PM" => {
+    "File::Format::RIFF" => 0,
+    "String::Approx" => 0
+  },
+  "VERSION" => "0.0103",
   "test" => {
     "TESTS" => "t/*.t"
   }

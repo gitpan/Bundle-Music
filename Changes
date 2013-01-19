@@ -1,5 +1,8 @@
 Revision history for Bundle::Music:
 
+0.0103 2013.01.19
+    - Added unhandled dependencies for MIDI::SoundFont to dist.ini.
+
 0.0102 2013.01.15
     - Added Music::Canon.
 

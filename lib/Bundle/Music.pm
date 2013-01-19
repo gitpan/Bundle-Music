@@ -2,7 +2,7 @@ package Bundle::Music;
 # ABSTRACT: A bundle of various MIDI and music modules
 use strict;
 use warnings;
-our $VERSION = 0.0102;
+our $VERSION = 0.0103;
 1;
 
 __END__
@@ -15,7 +15,7 @@ Bundle::Music - A bundle of various MIDI and music modules
 
 =head1 VERSION
 
-version 0.0102
+version 0.0103
 
 =head1 SYNOPSIS
 
