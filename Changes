@@ -1,13 +1,18 @@
 Revision history for Bundle::Music:
 
+0.0104_1  2013-02-10 20:33:34 America/Los_Angeles
+    - But make Task::MusicBundle instead.
+    - Try L<Module::Name> lines to see if CPANlikes it...
+    - Enhance documentation.
+
 0.0103 2013.01.19
-    - Added unhandled dependencies for MIDI::SoundFont to dist.ini.
+    - Added unhandled dependencies to dist.ini.
 
 0.0102 2013.01.15
     - Added Music::Canon.
 
 0.0101 2013.01.04
-    - Remove the Tk dependent XML module. (Wtf?)
+    - Remove the Tk dependent XML module.
 
 0.01 2013.01.03
     - Minted by Dist:Zilla

@@ -9,7 +9,7 @@ use ExtUtils::MakeMaker 6.30;
 
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "A bundle of various MIDI and music modules",
+  "ABSTRACT" => "A RETIRED bundle of various MIDI and music modules",
   "AUTHOR" => "Gene Boggs <gene\@cpan.org>",
   "BUILD_REQUIRES" => {},
   "CONFIGURE_REQUIRES" => {
@@ -19,13 +19,10 @@ my %WriteMakefileArgs = (
   "EXE_FILES" => [],
   "LICENSE" => "perl",
   "NAME" => "Bundle::Music",
-  "PREREQ_PM" => {
-    "File::Format::RIFF" => 0,
-    "String::Approx" => 0
-  },
-  "VERSION" => "0.0103",
+  "PREREQ_PM" => {},
+  "VERSION" => "0.0104_1",
   "test" => {
-    "TESTS" => "t/*.t"
+    "TESTS" => ""
   }
 );
 
